@@ -1,0 +1,11 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:gdp="urn:import:com.google.gwt.user.datepicker.client"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:m="urn:import:com.google.gwt.maps.client">
+	
+	<g:HTMLPanel ui:field="rootPanel">
+		<div id="uiMaps" style="width:900px; height:400px;"/>
+		<hr/>
+		<div id="chronoscope" style="width:900px; height:300px;"/>
+	</g:HTMLPanel>
+</ui:UiBinder>
